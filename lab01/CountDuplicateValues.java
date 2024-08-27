@@ -19,6 +19,6 @@ public class CountDuplicateValues {
         for (int i = 0; i < copArr.length; i++) {
             System.out.print(" "+origArr[i]);
         }
-        System.out.println("number of duplicate itoms are: "+count);
+        System.out.println("\nnumber of duplicate itoms are: "+count);
     }
 }

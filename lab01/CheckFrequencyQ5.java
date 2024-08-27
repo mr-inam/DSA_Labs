@@ -7,6 +7,11 @@ public class CheckFrequencyQ5 {
     }
     public static void main(String[] args) {
         int origArr[] = {21,21,21,21,21, 9, 17, 43, 9, 15, 21, 6, 38, 6};
+        System.out.print(" Original array is: ");
+        for (int i=0; i<origArr.length; i++){
+            System.out.print(" "+origArr[i]);
+        }
+        System.out.println();
         int arrFreq[][] = new int[origArr.length][2];
         for (int i = 0; i < origArr.length; i++) {
             for (int j = i+1; j < origArr.length; j++) {
