@@ -1,4 +1,4 @@
-public class LinkedList {
+﻿public class LinkedList {
     private class Node {
         public Node(int val) {
             this.val = val;
